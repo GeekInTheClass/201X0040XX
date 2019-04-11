@@ -9,3 +9,11 @@ func myFunction (num:Int) -> Int {
     }
     return result
 }
+
+let ret = myFunction(num: 5)
+
+let arr = [1, 2, 3]
+
+let mapped = arr.map(myFunction)
+
+
