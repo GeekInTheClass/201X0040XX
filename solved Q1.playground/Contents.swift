@@ -15,5 +15,12 @@ let ret = myFunction(num: 5)
 let arr = [1, 2, 3]
 
 let mapped = arr.map(myFunction)
-
+let mapped2 = arr.map({(num:Int)-> Int in
+    var result = 0
+    for i in 1...num {
+        result += i
+    }
+    return result
+})
+// 함수로 뭘 하라는건지 몰라서 배열까지 선언ㅇ해서 아무거나 다해봤ㅅ브니다.
 
